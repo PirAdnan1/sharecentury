@@ -17,7 +17,7 @@ function Footer() {
   return (
     <div className="bg-black py-6">
       <Container>
-        <div className="flex md:flex-row flex-col justify-center items-center">
+        <div className="flex flex-row  justify-center items-center">
           <FooterLogo />
           <div className="flex">
             <div className="text-lg leading-5 font-bold flex flex-col ml-14 gap-10 text-gray-200">
