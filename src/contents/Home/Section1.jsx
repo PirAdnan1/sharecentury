@@ -5,7 +5,7 @@ import Icons from "@/assets/Icons";
 
 function Section1() {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-center gap-16 bg-bgSpecial py-32">
+    <div className="flex flex-col lg:flex-row items-center justify-center gap-16 bg-bgSpecial py-32 px-4">
       <Icons />
       <div>
         <h1 className="text-[56px] font-semibold leading-[62px]">Overview </h1>

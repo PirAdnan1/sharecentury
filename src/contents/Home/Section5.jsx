@@ -18,7 +18,7 @@ function Section5() {
 
       <div className="flex flex-col lg:flex-row items-center justify-center mt-12 gap-14">
         <div className="relative">
-          <h1 className="text-[102px] leading-[113px] font-semibold absolute -top-1 left-[90px]">
+          <h1 className="md:text-[102px] text-[50px] leading-[113px] font-semibold absolute md:translate-x-1/3 translate-x-3/4 ">
             NEWS
           </h1>
           <div className="pr-10 py-14">

@@ -5,6 +5,7 @@ const Design = (props) => (
     xmlns="http://www.w3.org/2000/svg"
     width={407}
     height={174}
+    viewBox="0 0 407 174"
     fill="none"
     {...props}
   >

@@ -17,18 +17,20 @@ function Footer() {
   return (
     <div className="bg-black py-6">
       <Container>
-        <div className="flex flex-row  justify-center items-center">
-          <FooterLogo />
-          <div className="flex">
-            <div className="text-lg leading-5 font-bold flex flex-col ml-14 gap-10 text-gray-200">
+        <div className="flex md:flex-row flex-col  justify-center items-center">
+          <div className="px-10 sm:mx-0">
+            {/* <FooterLogo /> */}
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <div className="text-lg leading-5 font-bold flex  sm:flex-col sm:ml-14 sm:gap-10 gap-4 text-gray-200">
               <Link href="#">Overview</Link>
               <Link href="#">Portfolio</Link>
               <Link href="#">News</Link>
               <Link href="#">Blog</Link>
               <Link href="#">Contact</Link>
             </div>
-            <div className="ml-10 relative">
-              <h3 className="text-white text-[32px] leading-[38px] font-bold">
+            <div className="sm:ml-10 relative">
+              <h3 className="text-white my-4 text-[32px] leading-[38px] font-bold">
                 Stay in the know
               </h3>
               <div className="relative mt-6 pr-3">
@@ -37,7 +39,7 @@ function Footer() {
                   className="outline-none py-2 pl-9 -translate-x-2/2"
                   placeholder="yourmail@gmail.com"
                 />
-                <button className="bg-primary md:absolute w-full -translate-x-2/2 md:w-16 py-2 px-5">
+                <button className="bg-primary absolute py-2 px-5">
                   {<Arrow />}
                 </button>
                 <div className="absolute top-2 left-2">
