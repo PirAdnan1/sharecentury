@@ -12,7 +12,7 @@ function Section5() {
   return (
     <div className="bg-bgSpecial py-28">
     <Container>
-      <h1 className="text-[56px] leading-[62px] text-center font-semibold">
+      <h1 className="md:text-[56px] text-[36px] leading-[62px] text-center font-semibold">
         What we’ve been up to
       </h1>
 
