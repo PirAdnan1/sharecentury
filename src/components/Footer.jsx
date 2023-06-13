@@ -17,11 +17,11 @@ function Footer() {
   return (
     <div className="bg-black py-6">
       <Container>
-        <div className="flex md:flex-row flex-col  justify-center items-center">
+        <div className="flex md:flex-row flex-col justify-center items-center">
           <div className="px-10 sm:mx-0">
             {/* <FooterLogo /> */}
           </div>
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col md:flex-row justify-center items-center">
             <div className="text-lg leading-5 font-bold flex  sm:flex-col sm:ml-14 sm:gap-10 gap-4 text-gray-200">
               <Link href="#">Overview</Link>
               <Link href="#">Portfolio</Link>

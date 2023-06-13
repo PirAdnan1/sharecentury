@@ -3,7 +3,7 @@ import * as React from "react"
 const Design = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={407}
+    width={370}
     height={174}
     viewBox="0 0 407 174"
     fill="none"

@@ -16,7 +16,7 @@ function Section5() {
         What we’ve been up to
       </h1>
 
-      <div className="flex flex-col lg:flex-row items-center justify-center mt-12 gap-14">
+      <div className="flex flex-col lg:flex-row items-center justify-center mt-12 gap-14 px-4">
         <div className="relative">
           <h1 className="md:text-[102px] text-[50px] leading-[113px] font-semibold absolute md:translate-x-1/3 translate-x-3/4 ">
             NEWS
