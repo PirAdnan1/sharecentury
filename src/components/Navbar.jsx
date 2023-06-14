@@ -15,7 +15,7 @@ function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-5 relative">
             <Logo />
-            <div className="w-[1.3px] h-[135px] bg-gray-600 absolute left-28 top-0 hidden lg:block"></div>
+            <div className="w-[1.3px] h-[135px] bg-linecolor absolute left-28 top-0 hidden lg:block"></div>
             <div className="hidden md:block">
               <div className="flex  justify-between items-center">
                 <ul className="flex  gap-14 ml-24">

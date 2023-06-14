@@ -10,7 +10,7 @@ import Locate from "@/assets/Locate";
 function Section3() {
   return (
     <div className="bg-bgSpecial py-28">
-      <h1 className="md:text-[56px] text-[36px] leading-[61px] font-semibold text-center">
+      <h1 className="md:text-[56px] text-secondary text-[36px] leading-[61px] font-semibold text-center">
         Strategy
       </h1>
       <div className="flex flex-col lg:flex-row justify-center items-center gap-36 mt-12">

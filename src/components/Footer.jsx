@@ -15,14 +15,14 @@ import Message from "@/assets/Message";
 
 function Footer() {
   return (
-    <div className="bg-black md:px-[136px] px-6 py-6 overflow-hidden">
+    <div className="bg-black md:pr-44 px-6 pt-16 overflow-hidden">
       <Container>
-        <div className="flex lg:flex-row flex-col justify-center items-center">
-          <div>
+        <div className="flex lg:flex-row flex-col justify-between items-center">
+          <div className="order-2 lg:order-1">
             <FooterLogo />
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="text-lg leading-5 font-bold flex  sm:flex-col  sm:gap-10 gap-4 text-gray-200">
+          <div className="flex flex-col order-1 lg:order-2 md:flex-row justify-center items-center">
+            <div className="text-lg leading-5 font-bold flex  md:flex-col  sm:gap-10 gap-4 text-gray-200">
               <Link href="#">Overview</Link>
               <Link href="#">Portfolio</Link>
               <Link href="#">News</Link>

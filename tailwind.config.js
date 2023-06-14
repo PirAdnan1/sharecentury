@@ -14,6 +14,8 @@ module.exports = {
         primary: "#F16F52",
         bgSpecial: "#EEEEEE",
         iconsbg: "#E5E5E5",
+        linecolor: "#808080",
+        secondary: "#2A2829"
       }
     },
   },

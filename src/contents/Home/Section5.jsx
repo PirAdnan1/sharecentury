@@ -12,13 +12,13 @@ function Section5() {
   return (
     <div className="bg-bgSpecial py-28">
     <Container>
-      <h1 className="md:text-[56px] text-[36px] leading-[62px] text-center font-semibold">
+      <h1 className="md:text-[56px] text-secondary text-[36px] leading-[62px] text-center font-semibold">
         What we’ve been up to
       </h1>
 
       <div className="flex flex-col lg:flex-row items-center justify-center mt-12 gap-14 px-4">
         <div className="relative">
-          <h1 className="md:text-[102px] text-[50px] leading-[113px] font-semibold absolute md:translate-x-1/4 translate-x-3/4 ">
+          <h1 className="md:text-[102px] text-secondary text-[50px] leading-[113px] font-semibold absolute left-[105px] sm:left-[165px] md:left-[90px]">
             NEWS
           </h1>
           <div className="pr-10 py-14">
@@ -30,7 +30,7 @@ function Section5() {
         </div>
 
         <div>
-          <h3 className="text-[32px] leading-[48px] font-semibold max-w-[627px]">
+          <h3 className="text-[32px] text-secondary leading-[48px] font-semibold max-w-[627px]">
             Legitimate passive income Wiyhout Complicacy
           </h3>
           <p className="font-medium text-xl leading-[30px] text-gray-600 max-w-[583px] mt-6">
@@ -39,7 +39,7 @@ function Section5() {
             ad minim veniam
           </p>
 
-          <h3 className="text-[32px] leading-[48px] font-semibold max-w-[627px] mt-10">
+          <h3 className="text-[32px] text-secondary leading-[48px] font-semibold max-w-[627px] mt-10">
             Transparents And Reliable Cooperation
           </h3>
 
