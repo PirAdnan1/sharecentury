@@ -14,7 +14,7 @@ import Footer from '@/components/Footer'
 function HomeContants() {
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
         <Section1 />
         <Section2 />

@@ -13,7 +13,7 @@ import { planetVariants, slideIn } from "@/utils/motion";
 function Hero() {
   return (
     <Container>
-      <div className="flex flex-col lg:flex-row items-center mt-14">
+      <div className="flex flex-col lg:flex-row lg:justify-between items-center mt-14">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial="hidden"

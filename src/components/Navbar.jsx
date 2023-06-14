@@ -6,31 +6,29 @@ import Container from "./Container";
 
 // Assets
 import Logo from "@/assets/Logo";
-import Hamberger from "@/assets/Hamburger";
 
 function Navbar() {
   return (
-    <Container className="relative">
-      <div className="inset-0 absolute md:relative bg-white h-screen md:h-auto overflow-y-hidden z-50 -translate-x-2/2">
-        <nav className="flex justify-between items-center md:mx-16 mx-6 mt-12">
-          <div className="flex flex-col md:flex-row  justify-center text-center md:items-center">
-              <Logo />
-            <ul className="gap-14 flex  md:ml-24 ml-0 translate-x-3/4 flex-col justify-center items-center mt-16 md:mt-0 md:flex-row">
-              <Link href="#">Overview</Link>
-              <Link href="#">Portfolio</Link>
-              <Link href="#">Blogs</Link>
-              <Link href="#">News</Link>
-            </ul>
-            <button className="bg-primary mx-auto translate-x-3/4 px-5 lg:hidden py-3 mt-14 text-white">
-              Get In Touch
-            </button>
-          </div>
-          <div className="hidden lg:block">
-            <button className="bg-primary px-5 py-3  text-white">
-              Get In Touch
-            </button>
-          </div>
-        </nav>
+    <Container>
+      <div className="flex items-center justify-between 2xl:mx-28 mx-8 2xl:mt-12 md:my-6 relative">
+        <div className="flex items-center">
+          <Logo />
+          <div className="w-[1.3px] hidden lg:block h-[9rem] bg-gray-500 ml-5 mt-14 absolute left-20"></div>
+          <ul className="flex felx-row gap-14 lg:ml-24 md:ml-4">
+            <Link href="#">Overview</Link>
+            <Link href="#">Portfolio</Link>
+            <Link href="#">Blogs</Link>
+            <Link href="#">News</Link>
+          </ul>
+        </div>
+        <div>
+          <button className="bg-primary px-5 py-3 text-white">
+            Get In Touch
+          </button>
+        </div>
+      </div>
+      <div className="relative">
+        <div className="h-[1.3px] ml-56 hidden  lg:block w-[1010px]  2xl:ml-80 absolute bg-gray-500 -top-6"></div>
       </div>
     </Container>
   );
