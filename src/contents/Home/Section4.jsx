@@ -14,7 +14,7 @@ function Section4() {
   return (
     <div className="flex flex-col lg:flex-row justify-center items-center gap-16 py-28">
       <div>
-        <h1 className="font-semibold text-[56px] leading-[62px] ">Our Companies</h1>
+        <h1 className="font-semibold text-[36px] leading-[62px] ">Our Companies</h1>
         <span className="text-lg text-[#667085] leading-6 font-medium mt-1">Trusted by 4,000+ companies</span>
       </div>
       <div className="grid grid-cols-3 lg:flex gap-6">

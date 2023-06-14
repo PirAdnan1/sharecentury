@@ -13,14 +13,14 @@ import { planetVariants, slideIn } from "@/utils/motion";
 function Hero() {
   return (
     <Container>
-      <div className="flex flex-col lg:flex-row lg:justify-between  items-center mt-14">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center mt-14 overflow-hidden">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
           initial="hidden"
           animate="show"
           className="lg:bg-bgSpecial/40 rounded-r-full sm:pl-14 py-24"
         >
-          <h1 className="md:text-7xl text-4xl lg:leading-[93px] md:leading-[75px] xl:pl-10 font-medium">
+          <h1 className="md:text-7xl text-5xl lg:leading-[93px] md:leading-[75px] xl:pl-10 font-medium">
             Vertipro is <br /> a{" "}
             <span className="bg-primary text-white">Vertical SaaS</span> <br />{" "}
             Venture Studio
@@ -43,7 +43,7 @@ function Hero() {
           </div>
         </motion.div>
         <motion.div
-      
+        className="mr-6"
           variants={planetVariants("right")}
           initial="hidden"
           animate="show"

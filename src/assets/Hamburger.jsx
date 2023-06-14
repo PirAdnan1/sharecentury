@@ -1,14 +1,16 @@
 import * as React from "react";
 
-const Hamberger = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-    <g data-name="Layer 2">
-      <g data-name="menu">
-        <rect width="18" height="2" x="3" y="11" rx=".95" ry=".95" />
-        <rect width="18" height="2" x="3" y="16" rx=".95" ry=".95" />
-        <rect width="18" height="2" x="3" y="6" rx=".95" ry=".95" />
-      </g>
-    </g>
-  </svg>
-);
-export default Hamberger;
+function Hamgergur(props) {
+  return (
+    <svg width="23" height="37" viewBox="0 0 25 20" fill="none" {...props}>
+      <path
+        d="M1.7 1.75a.9.9 0 01.9-.9h19.8a.9.9 0 010 1.8H2.6a.9.9 0 01-.9-.9zm0 8.25a.9.9 0 01.9-.9h19.8a.9.9 0 010 1.8H2.6a.9.9 0 01-.9-.9zm0 8.25a.9.9 0 01.9-.9h19.8a.9.9 0 110 1.8H2.6a.9.9 0 01-.9-.9z"
+        fill="#F16F52"
+        stroke="#F16F52"
+        strokeWidth={1.5}
+      />
+    </svg>
+  );
+}
+
+export default Hamgergur;

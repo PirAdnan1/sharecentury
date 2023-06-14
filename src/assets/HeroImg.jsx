@@ -1,11 +1,14 @@
 import * as React from "react"
+
+
 const HeroImg = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={711}
-    height={677}
-    viewBox="0 0 711 677"
+    width={611}
+    height={577}
+    viewBox="0 0 711 977"
     fill="none"
+    // className="w-[22rem]"
     {...props}
   >
     <path

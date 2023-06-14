@@ -2,9 +2,9 @@ import * as React from "react"
 const FooterLogo = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={625}
-    height={671}
-    viewBox="0 0 625 671"
+    width={611}
+    height={577}
+    viewBox="0 0 711 977"
     fill="none"
     {...props}
   >
