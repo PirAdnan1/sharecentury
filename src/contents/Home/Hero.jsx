@@ -48,7 +48,7 @@ function Hero() {
           animate="show"
           viewport={{ once: false, amount: 0.25 }}
         >
-          {/* <HeroImg /> */}
+          <HeroImg />
         </motion.div>
       </div>
     </Container>
